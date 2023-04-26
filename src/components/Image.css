@@ -1,0 +1,32 @@
+svg{
+    height:80%;
+    max-width:80%;
+}
+#undraw_online_messaging_re_qft3-u-chat-1{
+    animation : bounce 3s infinite ease-in-out alternate;
+}
+#undraw_online_messaging_re_qft3-u-chat-2{
+    animation : bounce 2s infinite ease-in-out alternate;
+}
+#undraw_online_messaging_re_qft3-u-chat-3{
+    animation : bounce 4s infinite ease-in-out alternate;
+}
+#undraw_online_messaging_re_qft3-u-head{
+    animation : bounce1 1.5s infinite ease-in-out alternate;
+}
+@keyframes bounce {
+    0% {
+    transform : translateY(0);
+    }
+    100%{
+        transform : translateY(-20px);
+    }
+}
+@keyframes bounce1 {
+    0% {
+    transform : translateY(0);
+    }
+    100%{
+        transform : translateY(10px);
+    }
+}
